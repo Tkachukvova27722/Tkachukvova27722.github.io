@@ -1,0 +1,1457 @@
+@import url(./fonts.css);
+@import url(./reset.css);
+
+.container{
+    width: 1440px;
+    height: 100%;
+    margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        width: 768px;
+        height: 100%;
+        margin: 0 auto;
+    } 
+    @media screen and (max-width: 320px) {
+        width: 320px;
+        height: 100%;
+        margin: 0 auto;
+    }
+   
+}
+
+
+
+
+    header {
+        width: 1440px;
+        height: 792px;
+        background-image: url(./images/Background1440.png);
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        .menu-top{
+            width: 900px;
+            height: 177px;
+            padding: 48px 250px 0 248px;
+            display: flex;
+            justify-content: space-between;
+            .dreamshare{
+                color: white;
+                font-family: 'Montserrat-Bold';
+                font-weight: 700;
+                font-size: 20px;
+                margin: 2px 0 0 0;
+            }
+                .log-in-sign-up{
+                 color: white;
+                 font-family: 'Montserrat-Regular';
+                 font-size: 14px;
+                 display: flex;
+                 .log-in{
+                     width: 64px;
+                     height: 17px;
+                     margin: 5px 0 0 0  ;
+                    }
+                 .sign-up{
+                     width: 86px;
+                     height: 32px;
+                     border: 2px solid #FFFFFF;
+                     border-radius: 40px;
+                     margin: -7px -1px 0px 0px ;
+                     text-align: center;
+                     line-height: 33px;
+                    }
+             
+                }   
+        }
+
+        .menu-bottom{
+            width: 470px;
+            height: 400px;
+            margin: 0 auto;
+            color: white;
+
+            .share{
+            width: 470px;
+            height: 154px;
+            font-family: 'Montserrat-Bold';
+            font-weight: 700;
+            font-size: 52px;
+            line-height: 63px;
+            text-align: center;
+            }
+            .and{
+            width: 470px;
+            height: 58px;
+            font-family: 'Roboto-Light';
+            font-weight: 300;
+            font-size: 24px;
+            line-height: 24px;
+            text-align: center;
+            }
+            .find-red{
+            width: 225px;
+            height: 40px;
+            background: #FF4E50;
+            border-radius: 40px;
+            font-family: 'Montserrat-Bold';
+            font-size: 14px;
+            line-height: 42px;   
+            text-align: center; 
+            margin: 0 auto;            
+            }
+        }
+        
+    }
+
+
+
+    .background-white{
+        width: 1440px;
+        height: 100%;
+
+        .how-dream{
+            width: 1440px;
+            height: 65px;
+            font-family: 'Montserrat-Bold';
+            font-size: 26px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .slide-1{
+            width: 940px;
+            height: 492px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .photo-1{
+                width: 300px;
+                height: 400px;
+                background-image: url(./images/slide1pthoto1.png);
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                .pthoto-text{
+                    width: 250px;
+                    height: 180px;
+                    margin: 0 auto;
+                    color: white;
+                    .spet-1-red{
+                        width: 70px;
+                        height: 20px;
+                        background: #FF4E50;
+                        border-radius: 40px;
+                        letter-spacing: 2px;
+                        text-align: center;
+                        line-height: 23px;
+                        font-size: 10px;
+                        font-family: 'Montserrat-Regular';
+                        margin-bottom: 23px;
+                    }
+                    .tex-sed{
+                        width: 250px;
+                        height: 74px;
+                        font-family: 'Montserrat-Bold';
+                        font-size: 24px;
+                    }
+                    .tex-quisque{
+                        font-family: 'Roboto-Light';
+                        font-weight: 300;
+                        font-size: 14px;
+                    }
+                }
+                
+            }
+
+
+            .photo-2{
+                width: 300px;
+                height: 400px;
+                background-image: url(./images/slide1pthoto2.png);
+                display: flex;
+                align-items: flex-end;
+                justify-content: space-between;
+                
+                .pthoto-text-2{
+                    width: 250px;
+                    height: 149px;
+                    margin: 0 auto;
+                    color: white;
+                    .spet-2-red{
+                        width: 70px;
+                        height: 20px;
+                        background: #FF4E50;
+                        border-radius: 40px;
+                        letter-spacing: 2px;
+                        text-align: center;
+                        line-height: 23px;
+                        font-size: 10px;
+                        font-family: 'Montserrat-Regular';
+                        margin-bottom: 24px;
+                    }
+                    .tex-morbi{
+                        width: 250px;
+                        height: 42px;
+                        font-family: 'Montserrat-Bold';
+                        font-size: 24px;
+                    }
+                    .tex-nulla{
+                        font-family: 'Roboto-Light';
+                        font-weight: 300;
+                        font-size: 14px;
+                    }
+                }
+            }
+
+            
+                .photo-3{
+                    width: 300px;
+                    height: 400px;
+                    background-image: url(./images/slide1pthoto3.png);
+                    display: flex;
+                    align-items: flex-end;
+                    justify-content: space-between;
+                    .pthoto-text{
+                        width: 250px;
+                        height: 180px;
+                        margin: 0 auto;
+                        color: white;
+                        .spet-1-red{
+                            width: 70px;
+                            height: 20px;
+                            background: #FF4E50;
+                            border-radius: 40px;
+                            letter-spacing: 2px;
+                            text-align: center;
+                            line-height: 23px;
+                            font-size: 10px;
+                            font-family: 'Montserrat-Regular';
+                            margin-bottom: 23px;
+                        }
+                        .tex-sed{
+                            width: 250px;
+                            height: 74px;
+                            font-family: 'Montserrat-Bold';
+                            font-size: 24px;
+                        }
+                        .tex-quisque{
+                            font-family: 'Roboto-Light';
+                            font-weight: 300;
+                            font-size: 14px;
+                        }
+                    }
+                    
+                }
+        }
+
+
+        .text-meet{
+            width: 1440px;
+            height: 50px;
+            display: flex;
+            justify-content:center;
+            font-family: 'Montserrat-Bold';
+            font-size: 26px;
+            font-weight: 700;
+        }
+
+        .slide2-people{
+            width: 941px;
+            height: 272px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .bradley{
+                width: 221px;
+                height: 237px;
+                padding-top: 13px;
+                .pthoto-bradley{
+                    width: 120px;
+                    height: 120px;
+                    margin: 0 auto;
+                    background-image: url(./images/bradley.png);
+                    border-radius: 50%;
+                    position: relative;
+                }
+                .pthoto-bradley::after{
+                    content: "";
+                    width: 32px;
+                    height: 32px;
+                    background-color:#FF4E50;
+                    position: absolute;
+                    bottom: -5px;
+                    right:-5px;
+                    border-radius: 50%;
+                    border:4px solid white;
+                    background-image: url(./images/Shape.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                }
+                .tex-bradley{
+                    width: 113px;
+                    height: 18px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 14px;
+                    margin: 20px 0 20px 55px;
+                }
+                .text-based{
+                    width: 198px;
+                    height: 38px;
+                    font-size: 14px;
+                    font-family: 'Roboto-Light';
+                    margin: 0px 0 0px 12px;
+                    display: flex;
+                    text-align: center;
+                }
+                
+            }
+
+            .marie{
+                width: 221px;
+                height: 237px;
+                padding-top: 13px;
+                .pthoto-marie{
+                    width: 120px;
+                    height: 120px;
+                    margin: 0 auto;
+                    background-image: url(./images/marie.png);
+                    border-radius: 50%;
+                    position: relative;
+                }
+                .pthoto-marie::after{
+                    content: "";
+                    width: 32px;
+                    height: 32px;
+                    background-color:#19D4CA;
+                    position: absolute;
+                    bottom: -5px;
+                    right:-5px;
+                    border-radius: 50%;
+                    border:4px solid white;
+                    background-image: url(./images/Shape2.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                }
+                .tex-marie{
+                    width: 113px;
+                    height: 18px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 14px;
+                    margin: 20px 0 20px 58px;
+                }
+                .text-currently{
+                    width: 222px;
+                    height: 38px;
+                    font-size: 14px;
+                    font-family: 'Roboto-Light';
+                    display: flex;
+                    text-align: center;;
+                }
+                
+            }
+
+
+            .diana{
+                width: 221px;
+                height: 237px;
+                padding-top: 13px;
+                .pthoto-diana{
+                    width: 120px;
+                    height: 120px;
+                    margin: 0 auto;
+                    background-image: url(./images/diana.png);
+                    border-radius: 50%;
+                    position: relative;
+                }
+                .pthoto-diana::after{
+                    content: "";
+                    width: 32px;
+                    height: 32px;
+                    background-color:#FFA710;
+                    position: absolute;
+                    bottom: -5px;
+                    right:-5px;
+                    border-radius: 50%;
+                    border:4px solid white;
+                    background-image: url(./images/camera3.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                }
+                .tex-diana{
+                    width: 113px;
+                    height: 22px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 14px;
+                    margin: 21px 0 20px 68px;
+                }
+                .text-living{
+                    width: 230px;
+                    height: 38px;
+                    font-size: 14px;
+                    font-family: 'Roboto-Light';
+                    display: flex;
+                    text-align: center;
+                }
+                
+            }
+
+            .christopher{
+                width: 221px;
+                height: 237px;
+                padding-top: 13px;
+                .pthoto-christopher{
+                    width: 120px;
+                    height: 120px;
+                    margin: 0 auto;
+                    background-image: url(./images/christopher.png);
+                    border-radius: 50%;
+                    position: relative;
+                }
+                .pthoto-christopher::after{
+                    content: "";
+                    width: 32px;
+                    height: 32px;
+                    background-color:#667DF3;
+                    position: absolute;
+                    bottom: -5px;
+                    right:-5px;
+                    border-radius: 50%;
+                    border:4px solid white;
+                    background-image: url(./images/airplane4.png);
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+                }
+                .tex-christopher{
+                    width: 154px;
+                    height: 22px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 14px;
+                    margin: 21px 0 20px 43px;
+                }
+                .text-Star{
+                    width: 222px;
+                    height: 38px;
+                    font-size: 14px;
+                    font-family: 'Roboto-Light';
+                    display: flex;
+                    text-align: center;
+                }
+                
+            }
+        }
+
+        .see-other{
+            width: 178px;
+            height: 38px;
+            border: 2px solid #FF4E50;
+            border-radius: 40px;
+            color: #FF4E50;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Montserrat-Bold';
+            font-size: 14px;
+            margin: 0 auto;
+        }
+
+        .discover{
+            width: 413px;
+            height: 154px;
+            font-family: 'Montserrat-Bold';
+            font-size: 26px;
+            line-height: 206px;
+            margin: 0 auto;
+
+        }
+
+        .slide-3{
+            width: 940px;
+            height: 330px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            
+            
+            .pthoto-sports{
+                width: 300px;
+                height: 310px;
+                background-image: url(./images/slide3sport.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text-sports{
+                    width: 209px;
+                    height: 18px;
+                    color: white;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 22px;
+                    
+                }
+            }
+            .pthoto-wellness{
+                width: 300px;
+                height: 310px;
+                background-image:url(./images/slide3wellness.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text-wellness{
+                    width: 238px;
+                    height: 18px;
+                    color: white;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 22px;
+                }
+            }
+            .pthoto-extrem{
+                width: 300px;
+                height: 310px;
+                background-image:url(./images/slide3extrem.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text-extrem{
+                    width: 187px;
+                    height: 51px;
+                    color: white;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 22px;
+                    line-height: 27px;
+                }
+                
+            }
+        }
+
+        .slide-4{
+            width: 940px;
+            height: 330px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .pthoto-games{
+                width: 300px;
+                height: 310px;
+                background-image: url(./images/slide4games.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text-games{
+                    width: 80px;
+                    height: 23px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: white;
+                }
+            }
+            .pthoto-culture{
+                width: 620px;
+                height: 310px;
+                background-image:url(./images/slide4culture.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text-culture{
+                    width: 261px;
+                    height: 21px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: white;
+                }
+            }
+        }
+
+        .slide-5{
+            width: 940px;
+            height: 330px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+
+            .pthoto-enjoiment{
+                width: 620px;
+                height: 310px;
+                background-image: url(./images/slide5enjoiment.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text-enjoiment{
+                    width: 277px;
+                    height: 21px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: white;
+                }
+            }
+            .pthoto-travleling{
+                width: 300px;
+                height: 310px;
+                background-image:url(./images/slide5travelling.png);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .text-travleling{
+                    width: 114px;
+                    height: 21px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 22px;
+                    line-height: 27px;
+                    color: white;
+                }
+            }
+        }
+        
+        .greate-your{
+            width: 358px;
+            height: 150px;
+            font-size: 26px;
+            line-height: 32px;
+            font-family: 'Montserrat-Bold';
+            margin: 0 auto;
+            line-height: 173px;
+        }
+        .HI{
+            width: 276px;
+            height: 45px;
+            font-family: 'Roboto-Light';
+            font-size: 18px;
+            margin: 0 auto;
+            line-height: 25px;
+        }
+
+        .enter-search{
+            width: 482px;
+            height: 140px;
+            margin: 0 auto;
+            display: flex;
+            justify-content: space-between;
+            .enter{
+                width: 286px;
+                height: 28px;
+                border: 1px solid #D4D4D4;
+                box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+                border-radius: 3px;
+                padding-left: 10px;
+                padding-top: 10px;
+                input{
+                    width: 272px;
+                    height: 20px;
+                    font-size: 14px;
+                    font-family: 'Roboto-Light'; 
+                    border: none;
+                }
+            }
+            .search{
+                width: 172px;
+                height: 40px;
+                background: #FF4E50;
+                border-radius: 40px;
+                text-align: center;
+                font-family: 'Montserrat-Bold';
+                font-size: 14px;
+                line-height: 43px;
+                color: white;
+                a{
+                    text-decoration: none;
+                    cursor: pointer;
+                    color: white;
+                }
+            }
+        }
+
+        .footer{
+            width: 940px;
+            height: 224px;
+            border-top: 2px solid #FF4E50;
+            display: flex;
+            padding: 35px 250px 0 250px;
+            .footer-dreamshare{
+                width: 240px;
+                height: 150px;
+                font-family: 'Montserrat-Regular';
+                font-size: 16px;
+                line-height: 20px;
+                color:#FF4E50 ;
+            }
+
+            .footer-company-about{
+                width: 240px;
+                height: 180px;
+              .footer-company{
+                width: 240px;
+                height: 28px;
+                font-family: 'Montserrat-Bold';
+                font-size: 14px;
+                line-height: 26px;
+               }
+                .all-text{ 
+                    width: 120px;
+                    height: 150px;
+                    margin-top: 5px;
+                    font-family: 'Roboto-Light';
+                    font-size: 14px;
+                    line-height: 26px;
+                    color: #999999;  
+                }
+            }
+
+            .footer-partners{
+                width: 350px;
+                height: 150px;
+                font-family: 'Montserrat-Bold';
+                font-size: 14px;
+                line-height: 26px;
+
+            }
+            .footer-designed-logo{
+                width: 120px;
+                height: 150px;
+                .footer-designed{
+                    width: 120px;
+                    height: 18px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 10px;
+                    letter-spacing: 1px;
+                    color: #CCCCCC;
+                    padding: 5px 0 0 30px;
+                }
+                .footer-logo{
+                    width: 120px;
+                    height: 30px;
+                    background-image: url(./images320px/Bitmap.png);
+                    background-repeat: no-repeat;
+
+                }
+                
+
+            }
+            
+
+
+        }
+           
+        }
+
+
+    
+
+    
+    
+    
+
+    @media screen and (max-width:768px){
+
+
+        header{
+            width: 768px;
+            height: 798px;
+            background-image: url(./images/768px.png);
+
+            .menu-top{
+                width: 670px;
+                padding: 47px 0px 0px 48px;
+                .dreamshare{
+                    margin: 1px 0 0 0;
+                }
+            }
+        }
+
+
+
+        .background-white{
+            width: 768px;
+            height: 700px;
+            .how-dream{
+                width: 768px;
+                height:59px;
+                font-size: 22px;
+            }
+            .slide-1{
+                width: 748px;
+                height: 496px;
+                .photo-1{
+                    width: 236px;
+                    background-image: url(./images/slide1pthoto1.png);
+                    .pthoto-text{
+                        width: 196px;
+                        height: 196px;
+                        .spet-1-red{
+                            margin-bottom: 46px;
+                        }
+                        .tex-sed{
+                            width: 196px;
+                            height: 57px;
+                            line-height: 14px;
+                        }
+                    }
+                }
+    
+    
+                .photo-2{
+                    width: 236px;
+                    
+                    .pthoto-text-2{
+                        width: 196px;
+                        height: 145px;
+                        .spet-2-red{
+                            margin-bottom: 14px;
+                        }
+                        .tex-morbi{
+                            width: 196px;
+                            height: 52px;
+                            line-height: 14px;
+                        }
+                        
+                    }
+                }
+    
+                
+                    .photo-3{
+                        width: 236px;
+                        .pthoto-text{
+                            width: 196px;
+                            height: 196px;
+                            .spet-1-red{
+                                margin-bottom: 46px;
+                            }
+                            .tex-sed{
+                                width: 196px;
+                                height: 57px;
+                                line-height: 14px;
+                            }
+                        }
+                        
+                    }
+            }
+
+
+            .text-meet{
+                width: 768px;
+                font-size: 22px;
+            }
+
+            .slide2-people{
+                width: 478px;
+                height: 511px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                .bradley{
+                    padding-top: 9px;
+                    .text-based{
+                        width: 233px;
+                        margin: 0px 0 0px -6px;
+                    }
+                }
+    
+                .marie{
+                    order: 2;
+
+                    .tex-marie{
+                        width: 113px;
+                        height: 17px;
+                        margin: 22px 0 20px 58px;
+                    }
+                }
+                .diana{
+                    width: 226px;
+                    height: 237px;
+                    padding-top: 9px;
+                    .tex-diana{
+                        margin: 20px 0 20px 71px;
+                    }
+                    .text-living{
+                        width: 231px;
+                        height: 38px;
+                    } 
+                }
+    
+                .christopher{
+                    width: 224px;
+                    order: 3;
+
+                    .tex-christopher{
+                        width: 154px;
+                        height: 17px;
+                        margin: 22px 0 20px 44px;
+                    }
+                    .text-Star{
+                        width: 225px;
+                        height: 38px;
+                    }   
+                }
+            } 
+            
+            
+            .discover{
+                width: 350px;
+                font-size: 22px;
+                line-height: 213px;
+            }
+
+            .slide-3{
+                width: 748px;
+                height: 332px;
+    
+                .pthoto-sports{
+                    width: 236px;
+                    height: 310px;
+                    background-image: url(./images768px/slide3sports.png);
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .text-sports{
+                        width: 126px;
+                        height: 73px;
+                        line-height: 27px;
+                    }
+                }
+                .pthoto-wellness{
+                    width: 236px;
+                    height: 310px;
+                    background-image:url(./images768px/slide3wellness.png);
+                    .text-wellness{
+                        width: 238px;
+                        height: 18px;
+                    }
+                }
+                .pthoto-extrem{
+                    width: 236px;
+                    height: 310px;
+                    background-image:url(./images768px/slide3extreme.png);
+                }
+            }
+            .slide-4{
+                width: 748px;
+    
+                .pthoto-games{
+                    width: 236px;
+                    height: 310px;
+                    background-image: url(./images768px/slide4games.png);
+                }
+                .pthoto-culture{
+                    width: 492px;
+                    height: 310px;
+                    background-image:url(./images768px/slide4culture.png);
+                }
+            }
+            .slide-5{
+                width: 748px;
+                height: 330px;
+    
+                .pthoto-enjoiment{
+                    width: 492px;
+                    height: 310px;
+                    background-image: url(./images768px/slide5enjoiment.png);
+                }
+                .pthoto-travleling{
+                    width: 236px;
+                    height: 310px;
+                    background-image:url(./images768px/slide5trevelling.png);
+                }
+            }
+
+            .greate-your{
+                width: 303px;
+                font-size: 22px;
+            }
+
+            .footer{
+                width: 688px;
+                height: 224px;
+                padding: 33px 40px 0 40px;
+                .footer-dreamshare{
+                    width: 230px;
+                    height: 150px;
+                }
+                .footer-company-about{
+                    width: 170px;
+                        height: 150px;
+                    .footer-company{
+                        width: 170px;
+                        height: 28px; 
+                    }
+                }
+                
+                .footer-partners{
+                    width: 182px;
+                    height: 150px;
+                }
+                .footer-designed-logo{
+                    width: 112px;
+                }
+            }
+
+
+        }
+
+    }
+
+
+
+
+
+
+
+    @media screen and (max-width:320px){
+        header{
+            width: 320px;
+            height: 577px;
+            background-image: url(./images/320px.png);
+            background-repeat: no-repeat;
+
+            .menu-top{
+                width: 250px;
+                height: 205px;
+                padding: 0px 0px 0px 0px;
+                .dreamshare{
+                    width: 150px;
+                    height: 50px;
+                    margin: 157px 0 0 96px;
+                    
+
+                }
+             .log-in-sign-up{
+                width: 166px;
+                height: 50px;
+                color: white;
+                margin: 28px 0 0 -162px;
+                
+                .sign-up{
+                    margin: -7px 0px 0px 0px ;
+                }
+             }   
+            }
+
+            .menu-bottom{
+                width: 272px;
+                height: 300px;
+    
+                .share{
+                width: 291px;
+                height: 80px;
+                font-size: 30px;
+                line-height: 37px;
+                }
+                .and{
+                width: 270px;
+                height: 63px;
+                font-size: 18px;
+                margin: 0px 0 0 11px;
+                }
+                .find-red{
+                width: 280px; 
+                margin:0px 0 0 7px;           
+                }
+            }
+        }
+
+
+
+        .background-white{
+            width: 320px;
+            .how-dream{
+                width: 289px;
+                height:40px;
+                font-size: 22px;
+                margin: 0 auto;
+            }
+
+
+
+            .slide-1{
+                width: 300px;
+                height: 752px;
+                margin: 0 auto;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+                .photo-1{
+                    width: 300px;
+                    height: 240px;
+                    background-image: url(./images320px/slide1pthoto1.png);
+                    .pthoto-text{
+                        width: 260px;
+                        height: 176px;
+                        .spet-1-red{
+                            line-height: 24px;
+                            margin-bottom: 46px;
+                        }
+                        .tex-sed{
+                            width: 250px;
+                            height: 52px;
+                            line-height: 14px;
+                        }
+                        .tex-quisque{
+                            width: 250px;
+                            height: 57px;
+                        }
+                    }
+                    
+                }
+    
+    
+                .photo-2{
+                    width: 300px;
+                    height: 240px;
+                    background-image: url(./images320px/slide1pthoto2.png);
+                    .pthoto-text-2{
+                        width: 260px;
+                        height: 146px;
+                        margin: 0 auto;
+                        color: white;
+                        .spet-2-red{
+                            line-height: 24px;
+                            margin-bottom: 30px;
+                        }
+                        .tex-morbi{
+                            width: 227px;
+                            height: 38px;
+                            line-height: 14px;
+                        }
+                        .tex-nulla{
+                            width: 250px;
+                            height: 57px;
+                        }
+                    }
+                }
+    
+                
+                    .photo-3{
+                        width: 300px;
+                        height: 240px;
+                        background-image: url(./images320px/slide1pthoto3.png);
+                        .pthoto-text{
+                            width: 260px;
+                            height: 176px;
+                            .spet-1-red{
+                                line-height: 24px;
+                                margin-bottom: 46px;
+                            }
+                            .tex-sed{
+                                width: 250px;
+                                height: 52px;
+                                line-height: 14px;
+                            }
+                            .tex-quisque{
+                                width: 250px;
+                                height: 57px;
+                            }
+                        }
+                        
+                    }
+            }
+
+            .text-meet{
+                width: 300px;
+                height: 54px;
+                text-align: center;
+                line-height: 27px;
+                font-size: 22px;
+                margin: 0 auto;
+                padding-top: 25px;
+            }
+
+            .slide2-people{
+                width: 300px;
+                height: 935px;
+                .bradley{
+                    width: 221px;
+                    height: 207px;
+                    padding-top: 13px;
+                    margin: 0 auto;
+                    .text-based{
+                        width: 233px;
+                        height: 38px;
+                        margin: 0px 0 0px -6px;
+                    }
+                    
+                }
+    
+                .marie{
+                    width: 221px;
+                    height: 207px;
+                    padding-top: 13px;
+                    margin: 0 auto;
+    
+                    .tex-marie{
+                        width: 113px;
+                        height: 18px;
+                        font-family: 'Montserrat-Bold';
+                        font-size: 14px;
+                        margin: 20px 0 20px 58px;
+                    }
+                    .text-currently{
+                        width: 222px;
+                        height: 38px;
+                        font-size: 14px;
+                        font-family: 'Roboto-Light';
+                        display: flex;
+                        text-align: center;;
+                    }
+                    
+                }
+    
+    
+                .diana{
+                    width: 232px;
+                    height: 228px;
+                    padding-top: 13px;
+                    margin: 0 auto;
+                    .tex-diana{
+                        margin: 21px 0 20px 72px;
+                    }
+                    .text-living{
+                        width: 232px;
+                        height: 38px;
+                    }
+                    
+                }
+    
+                .christopher{
+                    width: 221px;
+                    height: 245px;
+                    padding-top: 13px;
+                    margin: 0 auto;
+                    .tex-christopher{
+                        width: 154px;
+                        height: 17px;
+                        margin: 21px 0 20px 43px;
+                    }
+                    .text-Star{
+                        width: 224px;
+                        height: 38px;
+                    }
+                    
+                }
+            }
+
+            .see-other{
+                width: 278px;
+                height: 38px;
+
+            }
+
+            .discover{
+                width: 280px;
+                height: 87px;
+                font-size: 22px;
+                margin: 34px 0px 0px 20px ;
+                text-align: center;
+                line-height: 27px;
+    
+            }
+
+            .slide-3{
+                width: 300px;
+                height: 390px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+    
+                .pthoto-sports{
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(./images320px/slide3sports.png);
+                    .text-sports{
+                        width: 126px;
+                        height: 80px;
+                        
+                    }
+                }
+                .pthoto-wellness{
+                    width: 300px;
+                    height: 120px;
+                    background-image:url(./images320px/slide3wellnes.png);
+                    .text-wellness{
+                        width: 156px;
+                        height: 54px;
+                        line-height: 27px;
+                    }
+                }
+                .pthoto-extrem{
+                    width: 300px;
+                    height: 120px;
+                    background-image:url(./images320px/slide3extreme.png);
+                }
+            }
+
+            .slide-4{
+                width: 300px;
+                height: 260px;
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+    
+                .pthoto-games{
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(./images320px/slide4games.png);
+                }
+                .pthoto-culture{
+                    width: 300px;
+                    height: 120px;
+                    background-image:url(./images320px/slide4culture.png);
+                }
+            }
+
+            .slide-5{
+                width: 300px;
+                height: 260px;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-between;
+    
+                .pthoto-enjoiment{
+                    width: 300px;
+                    height: 120px;
+                    background-image: url(./images320px/slide5enjoiment.png);
+                }
+                .pthoto-travleling{
+                    width: 300px;
+                    height: 120px;
+                    background-image:url(./images320px/slide5traveling.png);
+                }
+            }
+
+            .greate-your{
+                width: 280px;
+                height: 67px;
+                font-size: 22px;
+                line-height: 27px;
+                text-align: center;  
+                margin-top: 26px;              
+            }
+            .HI{
+                width: 276px;
+                height: 34px;
+                font-family: 'Roboto-Light';
+                font-size: 18px;
+                margin: 0 auto;
+                line-height: 25px;
+            }
+    
+            .enter-search{
+                width: 280px;
+                height: 130px;
+                margin: 0 auto;
+                display: block;
+                .enter{
+                    width: 268px;
+                    height: 28px;
+                    border: 1px solid #D4D4D4;
+                    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.073313);
+                    border-radius: 3px;
+                    padding-left: 10px;
+                    padding-top: 10px;
+                    input{
+                        width: 255px;
+                        height: 20px;
+                        font-size: 14px;
+                        font-family: 'Roboto-Light'; 
+                        border: none;
+                    }
+                }
+                .search{
+                    width: 280px;
+                    height: 40px;
+                    background: #FF4E50;
+                    border-radius: 40px;
+                    text-align: center;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 14px;
+                    line-height: 43px;
+                    color: white;
+                    margin-top: 10px;
+                    a{
+                        text-decoration: none;
+                        cursor: pointer;
+                        color: white;
+                    }
+                }
+            }
+
+            .footer{
+                width: 320px;
+                height: 204px;
+                display: inline-block;
+                // flex-wrap: wrap;
+                padding: 20px 0px 0 0px;
+                .footer-dreamshare{
+                    width: 120px;
+                    height: 28px;
+                    margin: 0 auto;
+                }
+                .footer-company-about{
+                    width: 320px;
+                    height: 75px;
+                    .footer-company{
+                        width: 70px;
+                        height: 22px; 
+                        margin: 0 auto;
+                    }
+                    .all-text{
+                        width: 186px;
+                        height: 52px;
+                        margin: 0 auto;
+                        text-align: center;
+                        line-height: 26px;
+                        display: flex;
+                        flex-wrap: wrap;
+                        justify-content:center;
+                        align-content: center;
+                        justify-content: space-between;
+                        .terms{
+                                width: 134px;
+                                height: 25px;
+                            }
+                        .help{
+                                width: 52px;
+                                height: 25px;
+                            }
+                    }
+
+                }
+                
+                .footer-partners{
+                    width: 64px;
+                    height:32px;
+                    font-family: 'Montserrat-Bold';
+                    font-size: 14px;
+                    line-height: 26px;
+                    margin: 0 auto;
+    
+                }
+                .footer-designed-logo{
+                    width: 83px;
+                    height: 50px;
+                    margin: 0 auto;
+                    .footer-designed{
+                        width: 120px;
+                        height: 18px;
+                        padding: 5px 0 0 0px;
+                    }
+                    .footer-logo{
+                        width: 120px;
+                        height: 30px;
+                        background-image: url(./images320px/Bitmap.png);
+                        background-repeat: no-repeat;
+                        margin-left: -14px ;
+    
+                    }
+                    
+    
+                }
+            }
+
+            
+        }
+    }
